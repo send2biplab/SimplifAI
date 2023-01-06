@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dark_yellow"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/photo7"
+                app:shapeAppearanceOverlay="@style/DiamondCut" />
+
+            <TextView
+                android:id="@+id/tvQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:background="@drawable/style_white_bg_question"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="17dp"
+                android:text="Question"
+                android:textColor="@color/black"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/tvQuestionNumber"
+                android:layout_width="65dp"
+                android:layout_height="53dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="-30dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/style_sky_outline"
+                android:fontFamily="@font/montserrat_bold"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="23sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/style_white_curved1"
+                android:orientation="vertical"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="25dp">
+
+                <TextView
+                    android:id="@+id/tvOption1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:background="@drawable/style_grey_curved_outline2"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:paddingHorizontal="25dp"
+                    android:paddingVertical="8dp"
+                    android:text="1    "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvOption2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/style_grey_curved_outline2"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:paddingHorizontal="25dp"
+                    android:paddingVertical="8dp"
+                    android:text="2    "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvOption3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/style_grey_curved_outline2"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:paddingHorizontal="25dp"
+                    android:paddingVertical="8dp"
+                    android:text="3    "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvOption4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/style_grey_curved_outline2"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:paddingHorizontal="25dp"
+                    android:paddingVertical="8dp"
+                    android:text="4    "
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivNext"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/style_blue_curved"
+                android:paddingVertical="9dp"
+                android:src="@drawable/icon_next" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TaskTypeTutorialActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="650dp"
+                    android:layout_height="350dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-90dp"
+                    android:src="@drawable/style_yellow_circle" />
+
+                <ImageView
+                    android:id="@+id/ivBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="-240dp"
+                    android:src="@drawable/ic_back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="45dp"
+                    android:layout_marginTop="-28dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Task Type Tutorial"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="70dp"
+                    android:background="@drawable/style_white_circle"
+                    android:padding="16dp"
+                    android:src="@drawable/icon_undo_arrow" />
+
+                <TextView
+                    android:id="@+id/tvQuestionNo"
+                    android:layout_width="50dp"
+                    android:layout_height="43dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="55dp"
+                    android:background="@drawable/style_white_circle"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="2 of 2"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvQuestionNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:text="Undo Button"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/tvQuestionNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="23dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="In case of wrong action, press the undo to revert."
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_below="@+id/ll1"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="25dp">
+
+                <ImageView
+                    android:id="@+id/ivPrevious"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/style_yellow_circle"
+                    android:padding="10dp"
+                    android:src="@drawable/icon_back" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.5"
+                    android:background="@drawable/style_yellow_circle"
+                    android:padding="10dp"
+                    android:src="@drawable/icon_next"
+                    android:tint="@color/white" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivNext"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/ll"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/style_blue_curved"
+                android:layout_marginBottom="30dp"
+                android:paddingVertical="9dp"
+                android:src="@drawable/icon_next" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
