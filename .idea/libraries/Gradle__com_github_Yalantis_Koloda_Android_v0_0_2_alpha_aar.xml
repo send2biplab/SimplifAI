@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Yalantis:Koloda-Android:v0.0.2-alpha@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5e9d6869626fb948f6f98584e349f7ae/transformed/jetified-Koloda-Android-v0.0.2-alpha/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5e9d6869626fb948f6f98584e349f7ae/transformed/jetified-Koloda-Android-v0.0.2-alpha/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5e9d6869626fb948f6f98584e349f7ae/transformed/jetified-Koloda-Android-v0.0.2-alpha/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Yalantis/Koloda-Android/v0.0.2-alpha/74c916cd2c90e7c4e847cdd22ce6793521481289/Koloda-Android-v0.0.2-alpha-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
